@@ -5,3 +5,4 @@ fetch ("http://localhost:3000/activities")
 function renderActivities(activities) {
     activities.forEach(renderActivities);
 }
+//testing change
