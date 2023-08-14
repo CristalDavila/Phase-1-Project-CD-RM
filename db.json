@@ -1,179 +1,115 @@
 {
     "activities": [
       {
-        "category": "restaurant"
-        "name": "Mister Oso"
-        "description": "Delicious Sounth and Central American inspired food and 
-        cocktails. Be sure to reserve a table ahead of time!"
-        "image": 
+        "category": "restaurant",
+        "name": "Mister Oso",
+        "description": "Delicious Sounth and Central American inspired food and cocktails. Be sure to reserve a table ahead of time!",
         "info": "https://misterosotacos.com/"
-        
+
       },
       {
-        
-        "category": "restaurant"
-        "name": "Fish N Beer"
-        "description": "Just as advertised, they've got fish, and they've got beer. 
-        The dishes are better than seafood in a landlocked state has any right to be,
-        highly recommend."
-        "image": 
+        "category": "restaurant",
+        "name": "Fish N Beer",
+        "description": "Just as advertised, they've got fish, and they've got beer. The dishes are better than seafood in a landlocked state has any right to be, highly recommend.",
         "info": "https://fishnbeerdenver.com/"
       },
       
       {
-        "category": "restaurant"
-        "name": "US Thai Café"
-        "description": "A Thai food restaurant located in the vicinity of 
-        Sloan's Lake park. The restaurant is small and fills up quickly, and the 
-        phone line frequently gets overloaded with carry out orders, so it is best 
-        to place your order early! If you order your food spicy,the staff will 
-        often ask if you have previously tried *their* 'spicy' to ensure you are not 
-        surprised by the lava hot spice levels. Friends who have lived in  
-        Thailand describe the spice level as 'authentic.'"
-        "image": 
+        "category": "restaurant",
+        "name": "US Thai Café",
+        "description": "A Thai food restaurant located in the vicinity of Sloan's Lake park. The restaurant is small and fills up quickly, and the phone line frequently gets overloaded with carry out orders, so it is best to place your order early! If you order your food spicy,the staff will often ask if you have previously tried *their* 'spicy' to ensure you are not surprised by the lava hot spice levels. Friends who have lived in  Thailand describe the spice level as 'authentic.'",
         "info":"https://www.westword.com/location/us-thai-cafe-5168573"
       },
 
       {
-      "category": "Drinks"
-      "name": "Golden Moon Distillery"
-      "description": "A distillery located in beautiful Golden, Colorado. 
-      The distillery was founded with the goal of producing high quality artisanal 
-      whiskies, brandies, liquors, and liqueurs drawing from founder Stephen Gould's 
-      personal library of rare books detailing recipes and techniques going back to
-      the 1500s."
-      "image": 
+      "category": "Drinks",
+      "name": "Golden Moon Distillery",
+      "description": "A distillery located in beautiful Golden, Colorado. The distillery was founded with the goal of producing high quality artisanal whiskies, brandies, liquors, and liqueurs drawing from founder Stephen Gould's personal library of rare books detailing recipes and techniques going back tothe 1500s.",
       "info": "https://www.goldenmoondistillery.com/"
     },
     {
-        "category":"Drinks"
-        "name": "Breckenridge Brewing"
-        "description": "Located in the historic mountain town of Breckenridge 
-        Colorado, this brewery offers a variety of beer styles and a full menu 
-        of food, perfect after a day of skiing. There is a second location in Littleton,
-        Colorado."
-        "image":
+        "category":"Drinks",
+        "name": "Breckenridge Brewing",
+        "description": "Located in the historic mountain town of Breckenridge Colorado, this brewery offers a variety of beer styles and a full menu of food, perfect after a day of skiing. There is a second location in Littleton, Colorado.",
         "imfo": "https://www.breckbrew.com/about/our-history/"
 
     },
     {
-        "category": "Night Life"
-        "name": "The 1 Up Arcade and Bar"
-        "description": "An arcade and bar featuring classic arcade games,
-        pinball machines, and skeeball. It's strictly 21+."
-        "image":
+        "category": "Night Life",
+        "name": "The 1 Up Arcade and Bar",
+        "description": "An arcade and bar featuring classic arcade games, pinball machines, and skeeball. It's strictly 21+.",
         "imfo": "https://the1uparcadebar.com/colfax/"
 
     },
     {
-        "category": "Night Life"
-        "name": "Puttshack"
-        "description": "tech-infused mini golf with a restaurant and bar!"
-        "image":
+        "category": "Night Life",
+        "name": "Puttshack",
+        "description": "tech-infused mini golf with a restaurant and bar!",
         "imfo": "https://www.puttshack.com/"
 
     },
     {
-        "category": "Night Life"
-        "name": "Comedy Works"
-        "description": "Stand-up bastion presents famed comedians along with 
-        up-and-comers in an intimate basement space."
-        "image":
+        "category": "Night Life",
+        "name": "Comedy Works",
+        "description": "Stand-up bastion presents famed comedians along with up-and-comers in an intimate basement space.",
         "imfo": "https://www.comedyworks.com/"
 
     },
     {
-        "category": "Outdoors"
-        "name": "Trading Post Trail at Red Rocks"
-        "description":"A moderately difficult hiking trail in Morrison, Colorado.
-        This trail is fun because if there is a concert in Red Rocks Amphitheater
-        you can enjoy a soundtrack to your hike."
-        "image":
+        "category": "Outdoors",
+        "name": "Trading Post Trail at Red Rocks",
+        "description":"A moderately difficult hiking trail in Morrison, Colorado.This trail is fun because if there is a concert in Red Rocks Amphitheater you can enjoy a soundtrack to your hike.",
         "imfo": "https://www.alltrails.com/trail/us/colorado/red-rocks-trading-post-trail"
 
     },
     {
-        "category": "Outdoors"
-        "name": "Chautauqua Park"
-        "description": "A popular park in Boulder with moderately difficult
-        hiking trail."
-        "image":
+        "category": "Outdoors",
+        "name": "Chautauqua Park",
+        "description": "A popular park in Boulder with moderately difficult hiking trail.",
         "imfo": "https://bouldercolorado.gov/locations/chautauqua-park"
 
     },
     {
-        "category": "Outdoors"
-        "name": "South Mesa Trail"
-        "description": "Located on the southern side of Boulder, this hike
-        offers a range of difficulty levels to accomodate varying skill levels. 
-        There is parking available, but it fills up quickly on weekends so it's 
-        best to arrive early. You are welcome to bring dogs as long as 
-        you keep the dog on a leash."
-        "image":
+        "category": "Outdoors",
+        "name": "South Mesa Trail",
+        "description": "Located on the southern side of Boulder, this hike offers a range of difficulty levels to accomodate varying skill levels. There is parking available, but it fills up quickly on weekends so it's best to arrive early. You are welcome to bring dogs as long as you keep the dog on a leash.",
         "imfo": "https://bouldercolorado.gov/trailhead/south-mesa"
 
     },
     {
-        "category": "Culture"
-        "name": "Red Rocks Amphitheater"
-        "description": "A National Historic Landmark and open-air amphitheater, Red
-        Rocks is a concert venue nestled among beautiful red sandstone rocks. Artists 
-        including Jimi Hendrix, U2, Diana Ross and the Supremes, and The Beatles have 
-        performed at Red Rocks. Be sure to where comfortable shoes when you attend a 
-        concert, because reaching your seats is a literal hike at high altitude."
-        "image":
+        "category": "Culture",
+        "name": "Red Rocks Amphitheater",
+        "description": "A National Historic Landmark and open-air amphitheater, Red Rocks is a concert venue nestled among beautiful red sandstone rocks. Artists including Jimi Hendrix, U2, Diana Ross and the Supremes, and The Beatles have performed at Red Rocks. Be sure to where comfortable shoes when you attend a concert, because reaching your seats is a literal hike at high altitude.",
         "imfo": "https://www.redrocksonline.com/"
 
     },
     {
-        "category": "Culture"
-        "name": "Meow Wolf"
-        "description": "A fun and weird psychadelic immersive art experience. The
-        original installation started in Santa Fe in 2008, it has since expanded to 
-        locations in Texas and Denver. You can walk through and enjoy it passively,
-        or you can immerse yourself in solving a strange mystery."
-        "image":
+        "category": "Culture",
+        "name": "Meow Wolf",
+        "description": "A fun and weird psychadelic immersive art experience. Theoriginal installation started in Santa Fe in 2008, it has since expanded to locations in Texas and Denver. You can walk through and enjoy it passively,or you can immerse yourself in solving a strange mystery.",
         "imfo": "https://meowwolf.com/"
 
     },
     {
-        "category": "Culture"
-        "name": "Denver Botanic Gardens"
-        "description": "Lush gardens flourishing with exotic, rare, and
-        native plants. Offers year-round events, and is a popular venue for 
-        weddings and other special occasions. The Japanese garden section is 
-        particularly beautiful, featuring native Colorado plants in a classic 
-        Japanese style."
-        "image":
+        "category": "Culture",
+        "name": "Denver Botanic Gardens",
+        "description": "Lush gardens flourishing with exotic, rare, andnative plants. Offers year-round events, and is a popular venue for weddings and other special occasions. The Japanese garden section is particularly beautiful, featuring native Colorado plants in a classic Japanese style.",
         "imfo": "https://www.botanicgardens.org/"
 
     },
     {
-        "category": "Culture"
-        "name": "Casa Bonita"
-        "description": "Casa Bonita is a Denver institution. 
-        Known for its cliff divers, sopapillas, roaming mariachi 
-        bands and Black Bart's hideout, the Lakewood restaurant has 
-        provided memories for thousands of Coloradans since it 
-        first opened in 1974. The new owners of the restaurant 
-        put forty million dollars into upgrading the space and hiring 
-        a professional chef to overhaul the menu."
-        "image":
+        "category": "Culture",
+        "name": "Casa Bonita",
+        "description": "Casa Bonita is a Denver institution. Known for its cliff divers, sopapillas, roaming mariachi bands and Black Bart's hideout, the Lakewood restaurant has provided memories for thousands of Coloradans since it first opened in 1974. The new owners of the restaurant put forty million dollars into upgrading the space and hiring a professional chef to overhaul the menu.",
         "imfo": "https://www.casabonitadenver.com/"
 
-    }
+    },
     {
-        "category": "Culture"
-        "name": "Denver Art Museum"
-        "description": "The Denver Art Museum was founded is one of the largest art 
-        museums between Chicago and the West Coast with global art collections 
-        that represent cultures around the world as well as work by artists from 
-        Denver and the Rocky Mountain region. Internationally known for its 
-        Indigenous Arts of North America collection, the museum also has one of 
-        the finest collections of Latin American Art and Art of the Ancient Americas."
-        "image": 
+        "category": "Culture",
+        "name": "Denver Art Museum",
+        "description": "The Denver Art Museum was founded is one of the largest art museums between Chicago and the West Coast with global art collections that represent cultures around the world as well as work by artists from Denver and the Rocky Mountain region. Internationally known for its Indigenous Arts of North America collection, the museum also has one of the finest collections of Latin American Art and Art of the Ancient Americas.",
         "imfo":"https://www.denverartmuseum.org/en"
 
-    },
+    }
     ]
   }
