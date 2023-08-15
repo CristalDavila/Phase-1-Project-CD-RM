@@ -12,17 +12,12 @@ function renderActivities(activities) {
 function renderActivity(activity) {
   if (uniqueCategories.indexOf(activity.category) === -1) {
     uniqueCategories.push(activity.category);
-    
     const activityCategoryElement = document.createElement('div');
-    activityCategoryElement.textContent = activity.category;
-    activityDiv.append(activityCategoryElement);
-
-    activityCategoryElement.addEventListener('click',()=>{
-     display.nameElement.textContent = activities.name
-    })
-        
-    }
+    activityCategoryElement.className = 'spacing';
+    activityCategoryElement.textContent = ' ' + activity.category + '  ';
+    activityDiv.appendChild(activityCategoryElement);
   }
-
-
-
+  function showRestaurantList(restaurants){
+    
+  }
+}
