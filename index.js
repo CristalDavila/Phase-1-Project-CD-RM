@@ -12,7 +12,6 @@ function renderActivities(activities) {
 function renderActivity(activity) {
   if (uniqueCategories.indexOf(activity.category) === -1) {
     uniqueCategories.push(activity.category);
-    
     const activityCategoryElement = document.createElement('div');
     activityCategoryElement.className = 'spacing'
     activityCategoryElement.textContent = '' + `${activity.category}` + '';
