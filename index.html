@@ -2,49 +2,52 @@
 <html>
 
 <head>
-    <title>Welcome to Denver!</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script defer type="text/javascript" src="index.js"></script>
+  <title>Welcome to Denver!</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script defer type="text/javascript" src="index.js"></script>
 </head>
 
+
+<header>
+  <h1>Welcome to Denver</h1>
+</header>
+
 <body>
-    <header>
-        <h1>Welcome to Denver</h1>
-    </header>
-    <div id="activities-bar">
-        <!-- This is where the name of each category will go -->
+  <div class="container">
+    <div class="column" id="column1">
+
+      <div id="activities-bar">
+
+      </div>
+
+
+      <div id="activities-info"> </div>
+
+      <div id="detailed-info"> </div>
+
+      <div id="list">
+      </div>
+
     </div>
-    <div id="activities-info">
-        <div id= "detailed-info">
-            <img id="category-display-image" src="./assets/'' alt="category image goes here">  
-            <h2 id="activity-name">Activity Name Goes Here</h2>
-            <h2 id="activity-description"></h2>
-            
-               
-      
 
-      <div id="main-content">
-        <h3>My Weekend Plans</h3>
-    
-        <form id="activities-form" action="" method="POST">
-          <label form="weekend-plans-description">Sounds Fun to Me:</label>
-          <input type="text" id="weekend-plans-description" name="weekend-plans-description" placeholder="description">
-          <input type="submit" value="Add to Plans">
-        </form>
-    
-        <div id="list">
-          <h4>My Favorites</h4>
-          <ul id="activities">
-          </ul>
-        </div>
-
-    
-    
-    </body>
-    </html>
+    <div class="column" id="column2">
 
 
+      <div id="My-Favorites">
+        <h2>My Plans</h2>
+        <ul id="tasks">
+        </ul>
+      </div>
 
-    
+      <form id="create-task-form" action="" method="POST">
+        <label for="new-task-description">Activity:</label>
+        <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+        <input type="submit" value="Add to Plans">
 
-   
+      </form>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
