@@ -31,43 +31,39 @@ function renderActivity(activity, activities) {
       console.log(filteredActivities)
 
       // foreach that breaks down the full category array into individual activities
+
       filteredActivities.forEach(singleAct => {
         displayActivityInfo(singleAct)
       })
-      // displayActivityInfo(filteredActivities)
     })
   }
 }
 
-
 function displayActivityInfo(activity) {
   console.log(activity)
 
-  // change query selectors to createElements for the 3 constant values
   const activityNameElement = document.createElement("div");
   const imageElement = document.createElement("img");
   const descriptionElement = document.createElement("div")
   const orderedList = document.createElement("ul")
 
-  // populate newly created tags
   activityNameElement.textContent = activity.name
   imageElement.src = activity.image
   descriptionElement.textContent = activity.description
   orderedList.append(imageElement, activityNameElement, descriptionElement)
 
-
-  // append to the div detailed
+  // appends to the div detailed-info
   const detailedInfo = document.querySelector("#detailed-info")
-  //  detailedInfo.innerHTML = ""
   detailedInfo.append(orderedList);
 
+}
 
-} document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
   const dataOne = document.querySelector("#create-task-form")
   dataOne.addEventListener("submit", (e) => {
-    e.preventDefault();
-    handleToDo(e.target["new-task-description"].value);
+  e.preventDefault();
+  handleToDo(e.target["new-task-description"].value);
   })
 })
 function handleToDo(todo) {
