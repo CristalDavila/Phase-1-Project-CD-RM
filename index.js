@@ -44,26 +44,27 @@ function displayActivityInfo(activity){
   console.log(activity)
 
   // change query selectors to createElements for the 3 constant values
-     const activityNameElement =document.createElement ("div1");
+     const activityNameElement =document.createElement ("div");
      const imageElement = document.createElement ("img");
-     const descriptionElement = document.createElement ("div2")
+     const descriptionElement = document.createElement ("div")
      const orderedList = document.createElement ("ul")
 
     // populate newly created tags
      activityNameElement.textContent= activity.name 
     imageElement.src = activity.image 
      descriptionElement.textContent = activity.description 
-
+     orderedList.append(imageElement,activityNameElement,descriptionElement)
   
 
     // append to the div detailed
-   const detailedInfo = document.querySelector("#detailed-info")
+const detailedInfo = document.querySelector("#detailed-info")
   //  detailedInfo.innerHTML = ""
-    detailedInfo.append(activityNameElement, imageElement, descriptionElement, orderedList);
+    detailedInfo.append(orderedList);
     
 
 }document.addEventListener("DOMContentLoaded", () => {
-  const dataOne = document.querySelector("#create-task-form")
+  
+const dataOne = document.querySelector("#create-task-form")
   dataOne.addEventListener("submit", (e)=>{
   e.preventDefault();
 handleToDo(e.target["new-task-description"].value);

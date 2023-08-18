@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Welcome to Denver!</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script defer type="text/javascript" src="index.js"></script>
 </head>
 
-<body>
-    <header>
+
+   <header>
         <h1>Welcome to Denver</h1>
     </header>
-    <div id="activities-bar">
-        <!-- This is where the name of each category will go -->
-    </div>
-    <div id="activities-info"> </div>
-        <div id= "detailed-info"> </div>
-            
-      </div>
-      <div id="list">
-        <h2>My Plans</h2>
-        <ul id="tasks">
-        </ul>
-      </div>
-  <div id="My-Favorites">
-          <h4>Ideas for this Weekend</h4>
-    <form id="create-task-form" action="" method="POST">
-      <label for="new-task-description">Activity:</label>
-      <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
-      <input type="submit" value="Add to Plans">
-    </form>
-    
- 
-    </html>
-
- 
+    <body>
+      <div class="container">
+          <div class="column" id="column1">
    
+    <div id="activities-bar">
+            </div>
 
+
+    <div id="activities-info"> </div>
+  
+   <div id= "detailed-info"> </div>
+  
+    <div id="list">
+    </div>
+ 
+ </div>
+
+<div class="column" id="column2">
 
   
-
-   
+  <div id="My-Favorites">
+    <h2>My Plans</h2>
+      <ul id="tasks">
+        </ul>
+          </div>
+          
+    <form id="create-task-form" action="" method="POST">
+      <label for="new-task-description">Activity:</label>
+       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+        <input type="submit" value="Add to Plans">
+    
+</form>
+ </div>
+  </div>
+   </div>
+    </body>
+      </html>
